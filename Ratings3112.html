@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratings Job Openings</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+            color: #fff;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: linear-gradient(to right, #00264d, #004080);
+            color: white;
+            padding: 40px;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            height: 100px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        header .date {
+            font-size: 1.2rem;
+            margin-top: 15px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+        }
+        .job {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #555;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            background: linear-gradient(to right, #2a2a2a, #333);
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .job:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 7px 20px rgba(0, 0, 0, 0.4);
+        }
+        .job-details {
+            flex: 3;
+        }
+        .job-details strong {
+            font-size: 1.8rem;
+            color: #00ffcc;
+        }
+        .job-details p {
+            font-size: 1.4rem;
+            margin: 10px 0;
+        }
+        .share-cv {
+            flex: 1;
+            text-align: right;
+        }
+        .share-cv button {
+            border: none;
+            border-radius: 10px;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .share-cv .email {
+            background: #ffd700; /* Yellow */
+            color: #000;
+        }
+        .share-cv .email:hover {
+            transform: scale(1.1);
+            background: #ffcc00;
+        }
+        .share-cv .whatsapp {
+            background: #25d366; /* Green */
+            color: #fff;
+        }
+        .share-cv .whatsapp:hover {
+            transform: scale(1.1);
+            background: #20b954;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 30px;
+            background: #001a33;
+            color: white;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+        }
+        .footer p {
+            font-size: 1.3rem;
+            margin: 0;
+        }
+        .footer a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 0 15px;
+        }
+        .footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Companylogo.png" alt="Company Logo">
+        <h1>Ratings Job Openings</h1>
+        <p class="date">Updated: 31/12/2024</p>
+    </header>
+    <div class="container">
+    <!-- Job 1 -->
+    <div class="job">
+        <div class="job-details">
+            <strong>Ocean One Ship Management (RPSL-MUM-162021)</strong>
+            <p>Position: Able Seaman (AB)</p>
+            <p>Vessel Type: LNG Vessel</p>
+            <p>Experience: LNG/LPG experience required</p>
+            <p>Joining: Immediate</p>
+        </div>
+        <div class="share-cv">
+            <button class="whatsapp" onclick="location.href='https://wa.me/9115909118?text=Dear%20Hiring%20Manager%2C%20I%20am%20interested%20in%20applying%20for%20the%20position%20of%20Able%20Seaman%20on%20an%20LNG%20Vessel.%20Please%20let%20me%20know%20the%20next%20steps.%20Thank%20you!'">Apply via WhatsApp</button>
+            <button class="email" onclick="location.href='mailto:parul@oceanoneshipmanagement.com?subject=Application%20for%20Able%20Seaman%20Position&body=Dear%20Hiring%20Manager%2C%0A%0AI%20am%20writing%20to%20apply%20for%20the%20Able%20Seaman%20position%20on%20an%20LNG%20Vessel.%0A%0AThank%20you!'">Apply via Email</button>
+        </div>
+    </div>
+
+    <!-- Job 2 -->
+    <div class="job">
+        <div class="job-details">
+            <strong>Blue Fortune Ship Management (RPSL No: MUM 162086)</strong>
+            <p>Position: Able Seaman (AB)</p>
+            <p>Vessel Type: Crude Oil Tanker</p>
+            <p>Experience/Requirement: Indian, UK, Singapore & Australia COC compulsory</p>
+        </div>
+        <div class="share-cv">
+            <button class="email" onclick="location.href='mailto:crew@bluefortuneship.com?subject=Application%20for%20Able%20Seaman%20Position&body=Dear%20Hiring%20Manager%2C%0A%0AI%20am%20writing%20to%20apply%20for%20the%20Able%20Seaman%20position%20on%20a%20Crude%20Oil%20Tanker.%0A%0AThank%20you!'">Apply via Email</button>
+            <button class="email" onclick="location.href='https://bluefortuneship.com/'">Visit Website</button>
+        </div>
+    </div>
+
+    <!-- Job 3 -->
+    <div class="job">
+        <div class="job-details">
+            <strong>Blue Fortune Ship Management (RPSL No: MUM 162086)</strong>
+            <p>Position: Oiler</p>
+            <p>Vessel Type: Crude Oil Tanker</p>
+            <p>Experience/Requirement: Indian, UK, Singapore & Australia COC compulsory</p>
+        </div>
+        <div class="share-cv">
+            <button class="email" onclick="location.href='mailto:crew@bluefortuneship.com?subject=Application%20for%20Oiler%20Position&body=Dear%20Hiring%20Manager%2C%0A%0AI%20am%20writing%20to%20apply%20for%20the%20Oiler%20position%20on%20a%20Crude%20Oil%20Tanker.%0A%0AThank%20you!'">Apply via Email</button>
+            <button class="email" onclick="location.href='https://bluefortuneship.com/'">Visit Website</button>
+        </div>
+    </div>
+
+    <!-- Job 4 -->
+    <div class="job">
+        <div class="job-details">
+            <strong>Vigma Maritime Services Pvt. Ltd.</strong>
+            <p>Position: Engineer Fitter (ENG FTR)</p>
+            <p>Vessel Type: Oil/Chemical Tankers</p>
+            <p>Experience: Watchkeeping experience required</p>
+        </div>
+        <div class="share-cv">
+            <button class="email" onclick="location.href='https://www.vigmamaritime.com'">Visit Website</button>
+        </div>
+    </div>
+
+    <!-- Job 5 -->
+    <div class="job">
+        <div class="job-details">
+            <strong>Naz Maritime (RPSL/MUM/130)</strong>
+            <p>Position: Able Seaman (AB)</p>
+            <p>Vessel Type: Handymax Bulk</p>
+            <p>Experience:</p>
+            <ul>
+                <li>Minimum 4 months rank experience</li>
+                <li>Experience on type-specific vessel</li>
+            </ul>
+        </div>
+        <div class="share-cv">
+            <button class="whatsapp" onclick="location.href='https://wa.me/8655480699?text=Dear%20Hiring%20Manager%2C%20I%20am%20interested%20in%20applying%20for%20the%20position%20of%20Able%20Seaman%20on%20a%20Handymax%20Bulk%20vessel.%20Please%20let%20me%20know%20the%20next%20steps.%20Thank%20you!'">Apply via WhatsApp</button>
+            <button class="email" onclick="location.href='mailto:sourcing@nazmaritime.com?subject=Application%20for%20Able%20Seaman%20Position&body=Dear%20Hiring%20Manager%2C%0A%0AI%20am%20writing%20to%20apply%20for%20the%20Able%20Seaman%20position%20on%20a%20Handymax%20Bulk%20vessel.%0A%0AThank%20you!'">Apply via Email</button>
+        </div>
+    </div>
+
+    <!-- Job 6 -->
+    <div class="job">
+        <div class="job-details">
+            <strong>Columbia Aurus Ship Management (RPSL-MUM-373)</strong>
+            <p>Position: Able Seaman (AB)</p>
+            <p>Vessel Type: AHTS DP-2 (Anchor Handling Tug Supply, Dynamic Positioning Class 2)</p>
+            <p>Experience: COP and offshore experience required</p>
+            <p>Location: Kakinada</p>
+        </div>
+        <div class="share-cv">
+            <button class="whatsapp" onclick="location.href='https://wa.me/8500635319?text=Dear%20Hiring%20Manager%2C%20I%20am%20interested%20in%20applying%20for%20the%20position%20of%20Able%20Seaman%20on%20an%20AHTS%20DP-2%20vessel.%20Please%20let%20me%20know%20the%20next%20steps.%20Thank%20you!'">Apply via WhatsApp</button>
+            <button class="email" onclick="location.href='mailto:saibala@columbiaaurus.com?subject=Application%20for%20Able%20Seaman%20Position&body=Dear%20Hiring%20Manager%2C%0A%0AI%20am%20writing%20to%20apply%20for%20the%20Able%20Seaman%20position%20on%20an%20AHTS%20DP-2%20vessel.%0A%0AThank%20you!'">Apply via Email</button>
+        </div>
+    </div>
+
+    <div class="job">
+        <div class="job-details">
+            <strong>KIWA Shipping LLP (RPSL MUM 162260)</strong>
+            <p>Position: Motorman</p>
+            <p>Vessel Type: Aframax Tanker</p>
+            <p>Experience: Minimum 12 months on Aframax Tanker</p>
+            <p>Requirement: Only WHITE COC</p>
+            <p>Joining: Within 10-12 days</p>
+        </div>
+        <div class="share-cv">
+            <button class="whatsapp" onclick="location.href='https://wa.me/8544883611?text=Dear%20Hiring%20Manager%2C%20I%20am%20interested%20in%20applying%20for%20the%20position%20of%20Motorman%20on%20an%20Aframax%20Tanker.%20Please%20let%20me%20know%20the%20next%20steps.%20Thank%20you!'">Apply via WhatsApp</button>
+            <button class="email" onclick="location.href='mailto:recruitment@kiwashipping.com?subject=Application%20for%20Motorman%20Position&body=Dear%20Hiring%20Manager%2C%0A%0AI%20am%20writing%20to%20apply%20for%20the%20Motorman%20position%20on%20an%20Aframax%20Tanker.%0A%0AThank%20you!'">Apply via Email</button>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Merchant Navy Decoded Jobs | Contact us at 
+            <a href="https://whatsapp.com/channel/0029VaeWFWW1SWsrJDXXxs06">Whatsapp Channel</a>
+        </p>
+    </div>
+</body>
+</html>
